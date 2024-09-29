@@ -116,13 +116,17 @@ To develop and validate an advanced deep learning model for predicting bio-funct
    - Perform MIC tests and assess antimicrobial efficacy.
 
 ---
+## Experiment time line. 
+***TODO***
+
+---
 
 | Experiment ID | Objective                                   | Outcome                                          | Figure |
 | ------------- | ------------------------------------------- | ------------------------------------------------ | ------ |
-| 1             | Develop BiLSTM-based deep learning model    | Achieved 94.8% accuracy                          | [3](./experiment_record/Fig1_COMDEL_application.png)      |
+| 1             | [Develop BiLSTM-based deep learning model](./experiment_record/COMDEL_1_N_2_repo.png)    | Achieved 94.8% accuracy                          | 3      |
 | 2             | Curate peptide dataset                      | Compiled 17,572 unique sequences                 | 1, 4   |
 | 3             | Feature extraction for peptides             | Used AAC, DPC, and BLOSUM62 embeddings           | 1      |
-| 4             | AMP prediction validation                   | 88% accuracy in experimental validation          | 5      |
+| 4             | [AMP prediction validation](./experiment_record/circular_heatmap.png)                   | 88% accuracy in experimental validation          | 5      |
 | 5             | Create cell-free AMP synthesis platform     | Produced 0.5-2.1 g/L AMP                         | 6      |
 | 6             | Apply ARTP mutagenesis on *L. plantarum*    | Generated diverse mutant strains                 | 7      |
 | 7             | Screen mutants with FADS                    | Isolated 3 mutant strains with improved activity | 6      |
@@ -132,39 +136,45 @@ To develop and validate an advanced deep learning model for predicting bio-funct
 | 11            | Expand dataset for model improvement        | Aimed to improve generalization                  | \#     |
 | 12            | Develop *L. plantarum* bio-preservative     | Enhanced probiotic strain for industry           | 7      |
 
+---  
+![Figure 1. COMDEL application](./experiment_record/Fig1_COMDEL_application.png)
+  
+**Figure 1. COMDEL application**
+
+---
+![Figure 2. BioPeps analysis](./experiment_record/Fig2_BipPeps_data_analysis.png)
+  
+**Figure 2. BioPeps analysis**
+  
+---
+![Figure 3. Model construction](./experiment_record/Fig3_model_construction.png)
+  
+**Figure 3. Model construction**
+
+---
+![Figure 4. Performance evaluation](./experiment_record/Fig4_performance_evaluation.png)
+  
+**Figure 4. Performance evaluation**
+
+---
+![Figure 5. Application of COMDEL on probiotics and medicinal herbs](./experiment_record/Fig5_application_probiotics_N_herbs.png)
+  
+**Figure 5. Application of COMDEL on probiotics and medicinal herbs**
+
+---
+![Figure 6. COMDEL and FADS application](./experiment_record/Fig6_COMDEL_x_FADS.png)
+  
+**Figure 6. COMDEL and FADS application**
+
+---
+![Figure 7. Antimicrobial activity test](./experiment_record/Fig7_antimicrobial_activity_test_evolved_L.plantarum.png)
+  
+**Figure 7. Antimicrobial activity test**
+  
+
 ---
 ### TO-DO
-- [ ] Data compilation
-- [ ] Stats analysis
 - [x] Documentation and report
-- [ ] Safety precautions
-- [ ] Repeat
-- [ ] Reference
 - [x] Result-figure table
-- [ ] Member contribution
 
-#### 5. **Data Analysis and Reporting**
-
-5.1 **Data Compilation**:
-   - Compile experimental data, including model performance, AMP production yields, and antimicrobial activity results.
-   
-5.2 **Statistical Analysis**:
-   - Perform statistical analysis using GraphPad Prism or R software.
-   - Report findings with mean ± SD and appropriate statistical tests (e.g., Student's t-test, ANOVA).
-
-5.3 **Documentation and Reporting**:
-   - Document experimental procedures, results, and observations in the lab notebook.
-   - Prepare research reports and manuscripts for publication.
-
-#### Safety Precautions
-- Follow all biosafety guidelines for handling bacterial strains and mutagenesis equipment.
-- Wear appropriate personal protective equipment (PPE) when conducting experiments.
-- Dispose of all biological waste according to institutional protocols.
-
-#### Notes
-- Optimization of reaction conditions for AMP synthesis may be required depending on specific peptide sequences.
-- Validate all *L. plantarum* mutants through repeated trials to ensure reproducibility.
-
-#### References
-Include references to key protocols, software manuals, and published literature used during the study.
 
