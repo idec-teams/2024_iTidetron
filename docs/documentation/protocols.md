@@ -119,7 +119,7 @@ To develop and validate an advanced deep learning model for predicting bio-funct
 
 | Experiment ID | Objective                                   | Outcome                                          | Figure |
 | ------------- | ------------------------------------------- | ------------------------------------------------ | ------ |
-| 1             | Develop BiLSTM-based deep learning model    | Achieved 94.8% accuracy                          | [3](./experiment_record/Fig1_COMDEL_application.png)      |
+| 1             | Develop BiLSTM-based deep learning model    | Achieved 94.8% accuracy                          | [3](./experiment_record/Fig3_model_construction.png)      |
 | 2             | Curate peptide dataset                      | Compiled 17,572 unique sequences                 | 1, 4   |
 | 3             | Feature extraction for peptides             | Used AAC, DPC, and BLOSUM62 embeddings           | 1      |
 | 4             | AMP prediction validation                   | 88% accuracy in experimental validation          | 5      |
@@ -131,6 +131,20 @@ To develop and validate an advanced deep learning model for predicting bio-funct
 | 10            | Pharmaceutical testing of AMPs              | Effective against multi-drug resistant bacteria  | \#     |
 | 11            | Expand dataset for model improvement        | Aimed to improve generalization                  | \#     |
 | 12            | Develop *L. plantarum* bio-preservative     | Enhanced probiotic strain for industry           | 7      |
+
+![Figure 1. COMDEL application](..experiment_record/Fig1_COMDEL_application.png)
+
+![Figure 2. BioPeps analysis](../experiment_record/Fig2_BipPeps_data_analysis.png)
+
+![Figure 3. Model construction](../experiment_record/Fig3_model_construction.png)
+
+![Figure 4. Performance evaluation](../experiment_record/Fig4_performance_evaluation.png)
+
+![Figure 5. Application of COMDEL on probiotics and medicinal herbs](../experiment_record/Fig5_application_probiotcis_N_herbs.png)
+
+![Figure 6. COMDEL and FADS application](../experiment_record/Fig6_COMDEL_x_FADS.png)
+
+![Figure 7. Antimicrobial activity test](../experiment_record/Fig7_antimicrobial_activity_test_evolved_L.plantarum.png)
 
 ---
 ### TO-DO
