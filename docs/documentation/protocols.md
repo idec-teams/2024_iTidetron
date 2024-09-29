@@ -119,7 +119,7 @@ To develop and validate an advanced deep learning model for predicting bio-funct
 
 | Experiment ID | Objective                                   | Outcome                                          | Figure |
 | ------------- | ------------------------------------------- | ------------------------------------------------ | ------ |
-| 1             | Develop BiLSTM-based deep learning model    | Achieved 94.8% accuracy                          | 3      |
+| 1             | Develop BiLSTM-based deep learning model    | Achieved 94.8% accuracy                          | [3](./experiment_record/Fig1_COMDEL_application.png)      |
 | 2             | Curate peptide dataset                      | Compiled 17,572 unique sequences                 | 1, 4   |
 | 3             | Feature extraction for peptides             | Used AAC, DPC, and BLOSUM62 embeddings           | 1      |
 | 4             | AMP prediction validation                   | 88% accuracy in experimental validation          | 5      |
