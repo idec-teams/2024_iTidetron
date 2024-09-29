@@ -135,24 +135,31 @@ To develop and validate an advanced deep learning model for predicting bio-funct
 ---
   
 ![Figure 1. COMDEL application](./experiment_record/Fig1_COMDEL_application.png)
+  
 **Figure 1. COMDEL application**
   
 ![Figure 2. BioPeps analysis](./experiment_record/Fig2_BipPeps_data_analysis.png)
+  
 **Figure 2. BioPeps analysis**
   
 ![Figure 3. Model construction](./experiment_record/Fig3_model_construction.png)
+  
 **Figure 3. Model construction**
   
 ![Figure 4. Performance evaluation](./experiment_record/Fig4_performance_evaluation.png)
+  
 **Figure 4. Performance evaluation**
   
 ![Figure 5. Application of COMDEL on probiotics and medicinal herbs](./experiment_record/Fig5_application_probiotics_N_herbs.png)
+  
 **Figure 5. Application of COMDEL on probiotics and medicinal herbs**
   
 ![Figure 6. COMDEL and FADS application](./experiment_record/Fig6_COMDEL_x_FADS.png)
+  
 **Figure 6. COMDEL and FADS application**
   
 ![Figure 7. Antimicrobial activity test](./experiment_record/Fig7_antimicrobial_activity_test_evolved_L.plantarum.png)
+  
 **Figure 7. Antimicrobial activity test**
   
 
