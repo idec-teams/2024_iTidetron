@@ -116,13 +116,32 @@ To develop and validate an advanced deep learning model for predicting bio-funct
    - Perform MIC tests and assess antimicrobial efficacy.
 
 ---
+
+| Experiment ID | Objective                                   | Outcome                                          | Figure |
+| ------------- | ------------------------------------------- | ------------------------------------------------ | ------ |
+| 1             | Develop BiLSTM-based deep learning model    | Achieved 94.8% accuracy                          | 3      |
+| 2             | Curate peptide dataset                      | Compiled 17,572 unique sequences                 | 1, 4   |
+| 3             | Feature extraction for peptides             | Used AAC, DPC, and BLOSUM62 embeddings           | 1      |
+| 4             | AMP prediction validation                   | 88% accuracy in experimental validation          | 5      |
+| 5             | Create cell-free AMP synthesis platform     | Produced 0.5-2.1 g/L AMP                         | 6      |
+| 6             | Apply ARTP mutagenesis on *L. plantarum*    | Generated diverse mutant strains                 | 7      |
+| 7             | Screen mutants with FADS                    | Isolated 3 mutant strains with improved activity | 6      |
+| 8             | Test mutants for antimicrobial activity     | Broad-spectrum activity validated                | 7      |
+| 9             | Industrial application in food preservation | Increased shelf life of products                 | \#     |
+| 10            | Pharmaceutical testing of AMPs              | Effective against multi-drug resistant bacteria  | \#     |
+| 11            | Expand dataset for model improvement        | Aimed to improve generalization                  | \#     |
+| 12            | Develop *L. plantarum* bio-preservative     | Enhanced probiotic strain for industry           | 7      |
+
+---
 ### TO-DO
 - [ ] Data compilation
 - [ ] Stats analysis
-- [ ] Documentation and report
+- [x] Documentation and report
 - [ ] Safety precautions
 - [ ] Repeat
 - [ ] Reference
+- [x] Result-figure table
+- [ ] Member contribution
 
 #### 5. **Data Analysis and Reporting**
 
