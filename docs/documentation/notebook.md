@@ -158,5 +158,10 @@ The enhanced strains and cell-free AMPs have broad applications in food and phar
 1. Expand the dataset to include more diverse BioPeps sequences.
 2. Further optimize the cell-free synthesis platform for other peptide categories.
 3. Conduct large-scale validation of *L. plantarum* strains in real-world industrial settings.
+  
+### Experiment record
+![model development](experiment_record/COMDEL_1_N_2_repo.png)
 
+![plotting](experiment_record/circular_heatmap.png)
+  
 ---
