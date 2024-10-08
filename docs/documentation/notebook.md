@@ -160,8 +160,10 @@ The enhanced strains and cell-free AMPs have broad applications in food and phar
 3. Conduct large-scale validation of *L. plantarum* strains in real-world industrial settings.
   
 ### Experiment record
+#### Screenshot of development of the deep-learning based BioPep identifier
 ![model development](experiment_record/COMDEL_1_N_2_repo.png)
 
+#### Screenshot of figure plotting
 ![plotting](experiment_record/circular_heatmap.png)
   
 ---
