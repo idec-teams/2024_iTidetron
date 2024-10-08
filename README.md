@@ -15,11 +15,11 @@ Our vision for this project is to transform the landscape of antimicrobial pepti
 By leveraging these advanced tools, we aspire to improve the efficiency and accuracy of identifying peptides with potent antimicrobial properties, such as those from Lactobacillus plantarum, for real-world applications in biotechnology, medicine, and industrial-scale production. Ultimately, we seek to contribute to the development of novel therapeutics and biotechnological solutions that address pressing global health and industrial challenges.
   
 ## Team members  
-**Collabration:** Ao Jiang (Advisor). 
-**Experiment:** Xuemei Zhao, Shijing Lai, Yucheng Hu, Jinde Chen, Qiuru Zhong, Qing He, Min Yang, YiYang He. 
-**Computational Biology:** Yu Zhang (Team Leader), Qijun Ge, Wei Lei, Houliang Lin. 
-**FADS:** Yang Zhang. 
-**Mentor:** Yirui Wu. 
+**Collabration:** Ao Jiang (Advisor).  
+**Experiment:** Xuemei Zhao, Shijing Lai, Yucheng Hu, Jinde Chen, Qiuru Zhong, Qing He, Min Yang, YiYang He.  
+**Computational Biology:** Yu Zhang (Team Leader), Qijun Ge, Wei Lei, Houliang Lin.  
+**FADS:** Yang Zhang.  
+**Mentor:** Yirui Wu.  
 
   
 ## Acknowledgements  
