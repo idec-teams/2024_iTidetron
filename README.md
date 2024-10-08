@@ -17,7 +17,7 @@ By leveraging these advanced tools, we aspire to improve the efficiency and accu
 ## Team members  
 **Collabration:** Ao Jiang (Advisor).  
 **Experiment:** Xuemei Zhao, Shijing Lai, Yucheng Hu, Jinde Chen, Qiuru Zhong, Qing He, Min Yang, YiYang He.  
-**Computational Biology:** Yu Zhang (Team Leader), Qijun Ge, Wei Lei, Houliang Lin.  
+**Computational Biology:** Yu Zhang (Team Leader), Qijun Ge, Houliang Lin.  
 **FADS:** Yang Zhang.  
 **Mentor:** Yirui Wu.  
   
