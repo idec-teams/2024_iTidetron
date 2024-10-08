@@ -40,7 +40,7 @@ copyright: Copyright &copy; 2024 iDEC. CC-BY-4.0 | The International Directed Ev
 
 nav:
   - Home: index.md
-  - Team: team.md
+  # - Team: team.md
   - Project:
       - Background: project/background.md
       - Results: project/results.md
