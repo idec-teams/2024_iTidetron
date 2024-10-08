@@ -22,7 +22,7 @@ By leveraging these advanced tools, we aspire to improve the efficiency and accu
 **Mentor:** Yirui Wu.  
   
 ## Links and Contact Information
-##### Tidetron Bioworks:  
+#### Tidetron Bioworks:  
 https://www.tidetronbio.com/en/  
-##### Web server of COMDEL2, the deep-learning based BioPep identifier:  
+#### Web server of COMDEL2, the deep-learning based BioPep identifier:  
 https://ai.tidetronbio.com:7782/COMDEL2.html  
