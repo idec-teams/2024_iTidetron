@@ -1,6 +1,6 @@
 # Wiki repoistory for iDEC 2024 | iTidetron
   
-## Team Name: iTidetron  
+## About iTidetron  
 **iTidetron** is a multidisciplinary team from [Tidetron Bioworks Technology](https://www.tidetronbio.com/en/), based in Guangzhou, China. Our team consists of researchers at various stages of their careers, bringing together expertise from computational biology, biotechnology, and experimental research. Our mission is to advance the academic and industrial applications of directed evolution and deep learning technologies in synthetic biology, with a particular focus on bio-functional peptides. By integrating cutting-edge computational approaches and innovative lab techniques, we aim to push the boundaries of protein engineering and peptide discovery, making significant contributions to biotechnology and medicine. 
   
 ## Project Mission and Vision
@@ -15,7 +15,13 @@ Our vision for this project is to transform the landscape of antimicrobial pepti
 By leveraging these advanced tools, we aspire to improve the efficiency and accuracy of identifying peptides with potent antimicrobial properties, such as those from Lactobacillus plantarum, for real-world applications in biotechnology, medicine, and industrial-scale production. Ultimately, we seek to contribute to the development of novel therapeutics and biotechnological solutions that address pressing global health and industrial challenges.
   
 ## Team members  
+**Collabration:** Ao Jiang (Advisor). 
+**Experiment:** Xuemei Zhao, Shijing Lai, Yucheng Hu, Jinde Chen, Qiuru Zhong, Qing He, Min Yang, YiYang He. 
+**Computational Biology:** Yu Zhang (Team Leader), Qijun Ge, Wei Lei, Houliang Lin. 
+**FADS:** Yang Zhang. 
+**Mentor:** Yirui Wu. 
 
+  
 ## Acknowledgements  
 
 ## Links and Contact Information
