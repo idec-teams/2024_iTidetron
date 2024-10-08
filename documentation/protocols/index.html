@@ -1,0 +1,951 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../project/results/">
+      
+      
+        <link rel="next" href="../notebook/">
+      
+      
+      <link rel="icon" href="../../img/idec-wiki-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Protocols - iDEC 2024 | iTidetron</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#protocols" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iDEC 2024 | iTidetron" class="md-header__button md-logo" aria-label="iDEC 2024 | iTidetron" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iDEC 2024 | iTidetron
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Protocols
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2024_iTidetron" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iDEC 2024 | iTidetron" class="md-nav__button md-logo" aria-label="iDEC 2024 | iTidetron" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    iDEC 2024 | iTidetron
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2024_iTidetron" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/background/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Background
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#protocol-enhancing-antimicrobial-ability-of-lactobacillus-plantarum-using-deep-learning-and-directed-evolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protocol: Enhancing Antimicrobial Ability of Lactobacillus plantarum Using Deep Learning and Directed Evolution
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Protocol: Enhancing Antimicrobial Ability of Lactobacillus plantarum Using Deep Learning and Directed Evolution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#title" class="md-nav__link">
+    <span class="md-ellipsis">
+      Title
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#materials-and-reagents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materials and Reagents
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protocol-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protocol Steps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-data-preparation-for-deep-learning-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Data Preparation for Deep Learning Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-cell-free-amp-synthesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Cell-Free AMP Synthesis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-directed-evolution-of-l-plantarum" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Directed Evolution of L. plantarum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-industrial-application-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Industrial Application Testing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lab notebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#protocol-enhancing-antimicrobial-ability-of-lactobacillus-plantarum-using-deep-learning-and-directed-evolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protocol: Enhancing Antimicrobial Ability of Lactobacillus plantarum Using Deep Learning and Directed Evolution
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Protocol: Enhancing Antimicrobial Ability of Lactobacillus plantarum Using Deep Learning and Directed Evolution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#title" class="md-nav__link">
+    <span class="md-ellipsis">
+      Title
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#materials-and-reagents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materials and Reagents
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protocol-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protocol Steps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-data-preparation-for-deep-learning-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Data Preparation for Deep Learning Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-cell-free-amp-synthesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Cell-Free AMP Synthesis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-directed-evolution-of-l-plantarum" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Directed Evolution of L. plantarum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-industrial-application-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Industrial Application Testing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="protocols">Protocols</h1>
+<h3 id="protocol-enhancing-antimicrobial-ability-of-lactobacillus-plantarum-using-deep-learning-and-directed-evolution">Protocol: Enhancing Antimicrobial Ability of <em>Lactobacillus plantarum</em> Using Deep Learning and Directed Evolution</h3>
+<h4 id="title">Title</h4>
+<p>Development and Validation of Enhanced <em>Lactobacillus plantarum</em> Strains Using Deep Learning Predictions and Directed Evolution for Antimicrobial Applications</p>
+<h4 id="purpose">Purpose</h4>
+<p>To develop and validate an advanced deep learning model for predicting bio-functional peptides and to generate enhanced <em>L. plantarum</em> strains with superior antimicrobial properties using directed evolution and high-throughput screening techniques.</p>
+<h4 id="materials-and-reagents">Materials and Reagents</h4>
+<ol>
+<li><strong>Biological Materials</strong></li>
+<li><em>Lactobacillus plantarum</em> wild-type strain</li>
+<li>E. coli BL21(DE3) strain</li>
+<li>B. subtilis 168 strain</li>
+<li>
+<p>Plasmid pBAD18-GFP</p>
+</li>
+<li>
+<p><strong>Reagents</strong></p>
+</li>
+<li>Atmospheric and Room Temperature Plasma (ARTP) mutagenesis system</li>
+<li>Arabinose, L-arabinose</li>
+<li>S30 buffer: 10 mM triacetate (pH 8.2), 14 mM magnesium acetate, 60 mM potassium acetate, 2 mM dithiothreitol (DTT)</li>
+<li>HEPES buffer (pH 7.2), folinic acid, E. coli tRNA mixture</li>
+<li>T7 RNA polymerase</li>
+<li>Amino acid mix (20 standard amino acids)</li>
+<li>Nicotinamide adenine dinucleotide (NAD), coenzyme-A (CoA), putrescine, sodium oxalate, spermidine, phosphoenolpyruvate (PEP)</li>
+<li>BCA Protein Assay Kit</li>
+<li>SDS-PAGE reagents</li>
+<li>MRS medium (for <em>L. plantarum</em> culture)</li>
+<li>PBS buffer</li>
+<li>Antibiotics: Ampicillin</li>
+<li>Fluorescence-activated droplet sorting (FADS) reagents and microfluidic chips</li>
+<li>
+<p>Protease K</p>
+</li>
+<li>
+<p><strong>Equipment</strong></p>
+</li>
+<li>BiLSTM deep learning model setup (Python, PyTorch)</li>
+<li>Centrifuge</li>
+<li>Incubator</li>
+<li>Sonicator</li>
+<li>Illumina NovaSeq 6000 platform for next-generation sequencing</li>
+<li>SDS-PAGE gel electrophoresis setup</li>
+<li>Fluorescence microscope</li>
+<li>Electroporator</li>
+<li>High-speed digital camera for FADS analysis</li>
+<li>Spectrophotometer</li>
+</ol>
+<h4 id="protocol-steps">Protocol Steps</h4>
+<h4 id="1-data-preparation-for-deep-learning-model">1. <strong>Data Preparation for Deep Learning Model</strong></h4>
+<p>1.1 <strong>Data Collection</strong>:
+   - Collect peptide sequences from public databases (BioDADPep, SATPdb, CancerPPD).
+   - Ensure the dataset includes various BioPeps categories: AMPs, AIPs, ACPs, etc.</p>
+<p>1.2 <strong>Data Processing</strong>:
+   - Remove redundant sequences (over 90% identity) using CD-HIT.
+   - Exclude sequences containing non-standard amino acids (e.g., B, J, O, U, X, Z).
+   - Generate negative control datasets from the UniProt database with similar length distribution.</p>
+<p>1.3 <strong>Feature Extraction</strong>:
+   - Apply feature extraction techniques such as Amino Acid Composition (AAC), Dipeptide Composition (DPC), and BLOSUM62 embeddings.
+   - Use AAindex for physicochemical properties and CKSAAGP for k-spaced amino acid pairs.</p>
+<p>1.4 <strong>Model Training</strong>:
+   - Train the BiLSTM model on the processed dataset using a split of 80% training and 20% testing data.
+   - Optimize model parameters using the Adam optimizer with a learning rate of 0.001.
+   - Evaluate the model performance using Accuracy, Sensitivity, Specificity, and AUROC metrics.</p>
+<h4 id="2-cell-free-amp-synthesis">2. <strong>Cell-Free AMP Synthesis</strong></h4>
+<p>2.1 <strong>Preparation of Cell-Free Extract</strong>:
+   - Grow E. coli BL21(DE3) cells to an OD600 of 3 in 2 × YT medium.
+   - Harvest cells by centrifugation at 5,000 × g, wash with S30 buffer, and resuspend in fresh S30 buffer.
+   - Lyse cells using sonication under ice bath conditions, add DTT, and centrifuge at 12,000 × g for 10 minutes.</p>
+<p>2.2 <strong>Cell-Free Reaction Setup</strong>:
+   - In a 50 μL reaction volume, mix:
+     - 50 mM HEPES buffer (pH 7.2)
+     - 1.2 mM ATP, 0.85 mM UTP, GTP, and CTP
+     - 34 μg/mL folinic acid, 170 μg/mL E. coli tRNA
+     - 5 μg/mL T7 RNA polymerase
+     - 15 μg/mL PCR product (peptide template)
+     - 2 mM of each of the 20 standard amino acids
+     - 0.33 mM NAD, 0.27 mM CoA, 1 mM putrescine, 4 mM sodium oxalate, 1.5 mM spermidine
+     - 130 mM potassium glutamate, 10 mM ammonium glutamate, 12 mM magnesium glutamate, 33 mM PEP
+     - 30% (v/v) cell extract</p>
+<p>2.3 <strong>AMP Production</strong>:
+   - Incubate the reaction mixture at 37°C for 4-6 hours.
+   - Analyze AMP production using SDS-PAGE and quantify with BCA Protein Assay.</p>
+<h4 id="3-directed-evolution-of-l-plantarum">3. <strong>Directed Evolution of <em>L. plantarum</em></strong></h4>
+<p>3.1 <strong>ARTP Mutagenesis</strong>:
+   - Grow <em>L. plantarum</em> to OD600 0.6 in MRS medium.
+   - Harvest cells, wash twice with PBS buffer, and resuspend in PBS.
+   - Expose cell suspension to ARTP treatment: 120 W, 15 SLM, 2 mm, 1 min.</p>
+<p>3.2 <strong>Screening with FADS</strong>:
+   - Prepare fluorescence-based biosensor strains (GFP10-E. coli, GFP11-B. subtilis).
+   - Mix mutant <em>L. plantarum</em> library with biosensor strains in microfluidic droplets.
+   - Sort droplets based on fluorescence intensity using FADS.</p>
+<p>3.3 <strong>Validation of Mutants</strong>:
+   - Grow sorted <em>L. plantarum</em> mutants and test fermentation products for antimicrobial activity against indicator strains.
+   - Use MIC assays to evaluate AMP activity.</p>
+<h4 id="4-industrial-application-testing">4. <strong>Industrial Application Testing</strong></h4>
+<p>4.1 <strong>Food Preservation Testing</strong>:
+   - Add 5% fermentation supernatant of evolved <em>L. plantarum</em> strains to food samples (e.g., soy sauce, coconut juice, bread).
+   - Store under standard conditions and monitor microbial growth over time.</p>
+<p>4.2 <strong>Pharmaceutical Application Testing</strong>:
+   - Test cell-free synthesized AMPs against multi-drug resistant bacteria.
+   - Perform MIC tests and assess antimicrobial efficacy.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Experiment ID</th>
+<th>Objective</th>
+<th>Outcome</th>
+<th>Figure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="../experiment_record/COMDEL_1_N_2_repo.png">Develop BiLSTM-based deep learning model</a></td>
+<td>Achieved 94.8% accuracy</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Curate peptide dataset</td>
+<td>Compiled 17,572 unique sequences</td>
+<td>1, 4</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Feature extraction for peptides</td>
+<td>Used AAC, DPC, and BLOSUM62 embeddings</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="../experiment_record/circular_heatmap.png">AMP prediction validation</a></td>
+<td>88% accuracy in experimental validation</td>
+<td>5</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Create cell-free AMP synthesis platform</td>
+<td>Produced 0.5-2.1 g/L AMP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Apply ARTP mutagenesis on <em>L. plantarum</em></td>
+<td>Generated diverse mutant strains</td>
+<td>7</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Screen mutants with FADS</td>
+<td>Isolated 3 mutant strains with improved activity</td>
+<td>6</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Test mutants for antimicrobial activity</td>
+<td>Broad-spectrum activity validated</td>
+<td>7</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Industrial application in food preservation</td>
+<td>Increased shelf life of products</td>
+<td>#</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Pharmaceutical testing of AMPs</td>
+<td>Effective against multi-drug resistant bacteria</td>
+<td>#</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Expand dataset for model improvement</td>
+<td>Aimed to improve generalization</td>
+<td>#</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Develop <em>L. plantarum</em> bio-preservative</td>
+<td>Enhanced probiotic strain for industry</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><img alt="Figure 1. COMDEL application" src="../experiment_record/Fig1_COMDEL_application.png" /></p>
+<p><strong>Figure 1. COMDEL application</strong></p>
+<hr />
+<p><img alt="Figure 2. BioPeps analysis" src="../experiment_record/Fig2_BipPeps_data_analysis.png" /></p>
+<p><strong>Figure 2. BioPeps analysis</strong></p>
+<hr />
+<p><img alt="Figure 3. Model construction" src="../experiment_record/Fig3_model_construction.png" /></p>
+<p><strong>Figure 3. Model construction</strong></p>
+<hr />
+<p><img alt="Figure 4. Performance evaluation" src="../experiment_record/Fig4_performance_evaluation.png" /></p>
+<p><strong>Figure 4. Performance evaluation</strong></p>
+<hr />
+<p><img alt="Figure 5. Application of COMDEL on probiotics and medicinal herbs" src="../experiment_record/Fig5_application_probiotics_N_herbs.png" /></p>
+<p><strong>Figure 5. Application of COMDEL on probiotics and medicinal herbs</strong></p>
+<hr />
+<p><img alt="Figure 6. COMDEL and FADS application" src="../experiment_record/Fig6_COMDEL_x_FADS.png" /></p>
+<p><strong>Figure 6. COMDEL and FADS application</strong></p>
+<hr />
+<p><img alt="Figure 7. Antimicrobial activity test" src="../experiment_record/Fig7_antimicrobial_activity_test_evolved_L.plantarum.png" /></p>
+<p><strong>Figure 7. Antimicrobial activity test</strong></p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  </body>
+</html>
