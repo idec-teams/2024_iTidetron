@@ -114,11 +114,7 @@ To develop and validate an advanced deep learning model for predicting bio-funct
 4.2 **Pharmaceutical Application Testing**:
    - Test cell-free synthesized AMPs against multi-drug resistant bacteria.
    - Perform MIC tests and assess antimicrobial efficacy.
-
----
-## Experiment time line. 
-***TODO***
-
+  
 ---
 
 | Experiment ID | Objective                                   | Outcome                                          | Figure |
@@ -173,8 +169,4 @@ To develop and validate an advanced deep learning model for predicting bio-funct
   
 
 ---
-### TO-DO
-- [x] Documentation and report
-- [x] Result-figure table
-
 
