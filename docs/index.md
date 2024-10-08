@@ -9,7 +9,7 @@ At iTidetron, our mission is to harness the power of directed evolution and deep
 Our vision for this project is to transform the landscape of antimicrobial peptide (AMP) discovery and bio-functional peptide engineering through the integration of deep learning and directed evolution technologies. We aim to set a new standard for AMP prediction and synthesis by developing innovative computational models, named [COMDEL2](https://ai.tidetronbio.com:7782/COMDEL2.html) and high-throughput experimental approaches. 
   
 <div align="center">
-  <img src="docs/documentation/experiment_record/Fig1_COMDEL_application.png" alt="COMDEL2" />
+  <img src="documentation/experiment_record/Fig1_COMDEL_application.png" alt="COMDEL2" />
 </div>
   
 By leveraging these advanced tools, we aspire to improve the efficiency and accuracy of identifying peptides with potent antimicrobial properties, such as those from Lactobacillus plantarum, for real-world applications in biotechnology, medicine, and industrial-scale production. Ultimately, we seek to contribute to the development of novel therapeutics and biotechnological solutions that address pressing global health and industrial challenges.
