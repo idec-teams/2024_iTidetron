@@ -20,15 +20,14 @@ By leveraging these advanced tools, we aspire to improve the efficiency and accu
 **Computational Biology:** Yu Zhang (Team Leader), Qijun Ge, Wei Lei, Houliang Lin.  
 **FADS:** Yang Zhang.  
 **Mentor:** Yirui Wu.  
-
   
-## Acknowledgements  
-
 ## Links and Contact Information
-
+Tidetron Bioworks: [https://www.tidetronbio.com/en/]  
+Web server of COMDEL2, the deep-learning based BioPep identifier: [https://ai.tidetronbio.com:7782/COMDEL2.html]
+  
   
 ---
-
+  
 ## Original guidance
 
 (This a temporary README file that needs to be updated before you submit the team wiki. Please stay tuned at [idec.io](https://idec.io) for future relevant announcements.)
